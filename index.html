@@ -1,64 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- hoja de estilos -->
-    <link rel="stylesheet" href="./css/styles.css">
-    <!-- título de página -->
-    <title>Título de la página</title>
-    <!-- ícono de pàgina -->
-    <!-- fuentes -->
-    <!-- javascript -->
+    <title>Calculadora JS</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-<div class="row">
-    <div class="column-1">
-        <p>1</p>
+
+<body class="flex">
+    <div>
+        <input type="number" placeholder="inserte un valor..." id="valor1"><br>
+        <input type="number" placeholder="inserte un valor..." id="valor2"><br>
+        <select name="" id="operaciones">
+            <option value="sumar">sumar (+)</option>
+            <option value="restar">restar (-)</option>
+            <option value="multiplicar">multiplicar (*)</option>
+            <option value="dividir">dividir (/)</option>
+        </select><br>
+        <input type="submit" value="Calcular" onclick="calcular()">
+        <p id="resultado"></p>
     </div>
-</div>
-<div class="row">
-    <div class="column-2">
-        <p>2</p>
-    </div>
-    <div class="column-2">
-        <p>3</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-4">
-        <p>4</p>
-    </div>
-    <div class="column-4">
-        <p>5</p>
-    </div>
-    <div class="column-4">
-        <p>6</p>
-    </div>
-    <div class="column-4">
-        <p>7</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-2">
-        <p>8</p>
-    </div>
-    <div class="column-2">
-        <p>9</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-3">
-        <p>10</p>
-    </div>
-    <div class="column-3">
-        <p>11</p>
-    </div>
-    <div class="column-3">
-        <p>12</p>
-    </div>
-</div>
 
 </body>
+
 </html>
